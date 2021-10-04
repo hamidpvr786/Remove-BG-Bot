@@ -30,21 +30,20 @@ HELP_TEXT = """
 - I will download it
 - I will send the photo without background
 
-Made by @FayasNoushad
-"""
+Made by @hamidpvr786"""
 ABOUT_TEXT = """
 - **Bot :** `Backround Remover Bot`
-- **Creator :** [Fayas](https://telegram.me/hamidpvr786)
+- **Creator :** [Hamid P](https://t.me/hamidpvr786)
 - **Channel :** [Fayas Noushad](https://t.me/hamidpvrchannel)
-- **Source :** [Click here](https://t.me/hamidpvrchannel/3)
+- **Source :** [Click](https://t.me/hamidpvrchannel)
 - **Language :** [Python3](https://python.org)
 - **Library :** [Pyrogram](https://pyrogram.org)
 - **Server :** [Heroku](https://heroku.com)
 """
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Channel', url='https://telegram.me/FayasNoushad'),
-        InlineKeyboardButton('Feedback', url='https://telegram.me/TheFayas')
+        InlineKeyboardButton('Channel', url='https://t.me/hamidpvrchannel'),
+        InlineKeyboardButton('Feedback', url='https://t.me/hamidpvr786')
         ],[
         InlineKeyboardButton('Help', callback_data='help'),
         InlineKeyboardButton('About', callback_data='about'),
@@ -73,7 +72,7 @@ ERROR_BUTTONS = InlineKeyboardMarkup(
     )
 BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Join Updates Channel', url='https://telegram.me/FayasNoushad')
+        InlineKeyboardButton('Join Updates Channel', url='https://t.me/hamidpvrchannel')
         ]]
     )
 
